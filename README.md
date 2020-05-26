@@ -15,7 +15,7 @@ To try it out, you can immediately open up these templates in Overleaf by clicki
 [1]: https://www.overleaf.com
 [2]: https://www.overleaf.com/docs?snip_uri=https://gitlab.com/DaanishKS/utdesign-latex-templates/-/raw/master/utdesign-latex-templates.zip
 
-## Meeting Agendas & Templates
+## Meeting Agendas and Minutes
 
 The following details will need to be edited once per template:
 
