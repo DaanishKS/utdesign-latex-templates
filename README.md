@@ -13,7 +13,7 @@ The easiest way to get started with these templates is to use [Overleaf][1], a p
 To try it out, you can immediately open up these templates in Overleaf by clicking this [link][2]. (You will need to register a free account beforehand.)
 
 [1]: https://www.overleaf.com
-[2]: https://www.overleaf.com/docs?snip_uri=https://gitlab.com/DaanishKS/utdesign-latex-templates/-/raw/master/utdesign-latex-templates.zip
+[2]: https://www.overleaf.com/docs?snip_uri=https://gitlab.com/DaanishKS/utdesign-latex-templates/-/archive/master/utdesign-latex-templates-master.zip
 
 ## Meeting Agendas and Minutes
 
