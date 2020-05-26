@@ -47,7 +47,7 @@ The following details in the template will need to be edited:
 - Team Logo
 - Team Member Names
 
-The following details will need to be edit per deliverable:
+The following details will need to be edited per deliverable:
 
 - Document Title
 - Date
