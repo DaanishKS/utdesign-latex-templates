@@ -1,0 +1,127 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title: UTDesign Meeting Agenda Template
+% Author: Daanish Khazi-Syed
+% Date: 2020-05-26
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{newtxtext}
+\usepackage{lastpage}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\usepackage{setspace}
+\setstretch{1.15}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot[c]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+
+\usepackage{enumitem}
+\setlist[enumerate]{leftmargin=*, topsep=0pt, parsep=0pt}
+\setlist[itemize]{leftmargin=*, topsep=0pt, parsep=0pt}
+
+% Edit these document details
+\newcommand{\Title}{[Technical Manager/Client] Meeting Agenda}
+\newcommand{\Date}{26 August 2019}
+\newcommand{\Time}{12:00 p.m.}
+\newcommand{\Location}{SPN X.XXX}
+\newcommand{\Duration}{XX minutes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Cover Page (edit [details] listed in square brackets)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+\begin{center}
+    \includegraphics[width=3.5in]{logos/team_logo.png} \\
+    \vspace{6pt}
+    \includegraphics[width=3.5in]{logos/utdesign_logo.png} \\
+    \vspace{0.75in}
+    \Large
+    Project No. XXX: [Project Name] \\
+    Corporate Sponsor: [Corporate Sponsor Name] \\
+    \vspace{0.75in}
+    \Huge \Title \\
+    \vspace{0.75in}
+    \Large Prepared By [Team Name] \\
+    \vspace{12pt}
+    \large Alfa Bravo, Charlie Delta, Echo Foxtrot,\\ Golf Hotel, India Juliett, \& Kilo Lima \\
+    \vspace{0.5in}
+    \Large \Date \\
+\end{center}
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Document Header (edit [details] listed in square brackets)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+    {\Large [Team Name] \Title}
+\end{center}
+\hrule
+\vspace{18pt}
+\textbf{Date}: \Date \hfill \textbf{Time}: \Time \hfill \textbf{Location}: \Location \hfill \textbf{Duration}: \Duration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Main Document Content
+
+\section*{Purpose}
+\begin{itemize}
+    \item The quick brown fox jumps over the lazy dog.
+    \item The quick brown fox jumps over the lazy dog.
+    \item The quick brown fox jumps over the lazy dog.
+\end{itemize}
+
+\section*{Agenda}
+\begin{enumerate}
+    \item The quick brown fox jumps over the lazy dog. (X min)
+    \item The quick brown fox jumps over the lazy dog. (X min)
+    \begin{enumerate}
+        \item The quick brown fox jumps over the lazy dog.
+        \item The quick brown fox jumps over the lazy dog.
+    \end{enumerate}
+    \item The quick brown fox jumps over the lazy dog. (X min)
+    \begin{enumerate}
+        \item The quick brown fox jumps over the lazy dog.
+        \item The quick brown fox jumps over the lazy dog.
+        \item The quick brown fox jumps over the lazy dog.
+    \end{enumerate}
+    \item The quick brown fox jumps over the lazy dog. (X min)
+    \item The quick brown fox jumps over the lazy dog. (X min)
+    \item The quick brown fox jumps over the lazy dog. (X min)
+    \begin{enumerate}
+        \item The quick brown fox jumps over the lazy dog.
+        \item The quick brown fox jumps over the lazy dog.
+    \end{enumerate}
+\end{enumerate}
+
+\section*{Action Items}
+\renewcommand{\arraystretch}{1.75}
+\begin{table}[H]
+    \begin{tabular}{p{3.25in} p{1.75in} p{1in}}
+        \toprule
+        \textbf{Item} & \textbf{DRI\footnotemark} & \textbf{Deadline} \\
+        \midrule
+        (1) & & \\ \midrule
+        (2) & & \\ \midrule
+        (3) & & \\ \midrule
+        (4) & & \\ \midrule
+        (5) & & \\ \midrule
+        (6) & & \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:action_items}
+\end{table}
+
+\footnotetext{Directly Responsible Individual}
+
+\end{document}
